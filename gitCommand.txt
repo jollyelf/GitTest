@@ -32,6 +32,11 @@ git tag -d tagname																删除标签
 git push origin tagname（--tags）												标签推送到远程(推送所有未推送的标签)
 git push origin :refs/tags/<tagname>											远程删除标签
 git remote rm origin															删除远程库
+****.gitignore																	该文件用于指示哪些文件被git忽略（该文件本身需要提交）
+git config --global alias.alias command											配置别名
+
+ 
+
 
 
 
