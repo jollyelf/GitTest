@@ -14,6 +14,14 @@ git push -u origin master/git push origin master								将本地库内容提交
 git clone git@github.com:jollyelf/gitSkill.git									从远程服务器中克隆库
 git checkout -b branchName														创建一个分支并切换到分支
 git branch branchName															创建分支
-git checkout branchName															切换到分支
-git merge	branchName															合并分支								
+git checkout branchName															切换到分支（切换到某一分支或回到主分支）
+git merge branchName															合并分支（需要在主分支下面才能进行）
+git branch -d/D branchName														删除分支（-D为强行删除分支）
+git stash																		储存当前现场（当正在开展工作时，开展临时的工作时使用）
+git stash pop																	完后其他工作后恢复当前工作（首先需要进到开展工作的分支中）
+git stash list																	查看stash内容
+git stash apply stash@{0}/git stash drop										恢复到指定的工作现场
+
+
+								
 
