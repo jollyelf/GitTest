@@ -1,16 +1,19 @@
-git add fileName				添加修改至库
-git commit	-m '' 				提交修改至库
-git status						查看状态
-git log							查看版本信息
-git reset --hard HEAD^			回到某个版本 （HEAD^表示版本号）
-git reflog						查看命令记录
-git diff HEAD -- fileName		查看某一版本的修改内容
-git checkout --fileName			恢复修改（用版本库中的文件替换当前文件）
-git reset HEAD	fileName		撤销缓存
-git rm fileName + git commit	删除文件
-ssh-keygen -t rsa -C "youremail@example.com"	创建本地SSH
-git remote add origin https://github.com/jollyelf/GitTest.git	将本地库与远程库建立连接
-git push -u origin master/git push origin master				将本地库内容提交远程库（第一次提交时加-u参数）
-git clone git@github.com:jollyelf/gitSkill.git					从远程服务器中克隆库
-
+git add fileName																添加修改至库
+git commit	-m '' 																提交修改至库
+git status																		查看状态
+git log																			查看版本信息
+git reset --hard HEAD^															回到某个版本 （HEAD^表示版本号）
+git reflog																		查看命令记录
+git diff HEAD -- fileName														查看某一版本的修改内容
+git checkout --fileName															恢复修改（用版本库中的文件替换当前文件）
+git reset HEAD	fileName														撤销缓存
+git rm fileName + git commit													删除文件
+ssh-keygen -t rsa -C "youremail@example.com"									创建本地SSH
+git remote add origin https://github.com/jollyelf/GitTest.git					将本地库与远程库建立连接
+git push -u origin master/git push origin master								将本地库内容提交远程库（第一次提交时加-u参数）
+git clone git@github.com:jollyelf/gitSkill.git									从远程服务器中克隆库
+git checkout -b branchName														创建一个分支并切换到分支
+git branch branchName															创建分支
+git checkout branchName															切换到分支
+								
 
