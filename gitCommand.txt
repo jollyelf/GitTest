@@ -21,6 +21,24 @@ git stash																		储存当前现场（当正在开展工作时，开�
 git stash pop																	完后其他工作后恢复当前工作（首先需要进到开展工作的分支中）
 git stash list																	查看stash内容
 git stash apply stash@{0}/git stash drop										恢复到指定的工作现场
+git remote -v																	查看远程库名称(详细信息)
+git pull																		从远程服务器获取某文件的修改至本地
+git branch --set-upstream-to <branch-name> origin/<branch-name>					建立本地分支和远程分支之间的连接
+git rebase																		将本地的未push的分叉提交历史整理成直线
+git tag tagname 																给定分支打标签（首先需进入到给定分支）
+git show tagname																查看标签详细信息
+git tag -a <tagname> -m "blablabla..."											给标签指定标签信息
+git tag -d tagname																删除标签
+git push origin tagname（--tags）												标签推送到远程(推送所有未推送的标签)
+git push origin :refs/tags/<tagname>											远程删除标签
+git remote re origin															删除远程库
+
+
+
+
+
+
+
 
 
 								
