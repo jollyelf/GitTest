@@ -15,5 +15,5 @@ git clone git@github.com:jollyelf/gitSkill.git									从远程服务器中克�
 git checkout -b branchName														创建一个分支并切换到分支
 git branch branchName															创建分支
 git checkout branchName															切换到分支
-								
+git merge	branchName															合并分支								
 
