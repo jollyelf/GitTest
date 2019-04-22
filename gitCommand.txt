@@ -31,7 +31,7 @@ git tag -a <tagname> -m "blablabla..."											给标签指定标签信息
 git tag -d tagname																删除标签
 git push origin tagname（--tags）												标签推送到远程(推送所有未推送的标签)
 git push origin :refs/tags/<tagname>											远程删除标签
-git remote re origin															删除远程库
+git remote rm origin															删除远程库
 
 
 
